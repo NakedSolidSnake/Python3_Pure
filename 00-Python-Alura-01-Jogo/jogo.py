@@ -1,4 +1,5 @@
 import adivinhacao
+import forca
 
 def main():
 	while(True):
@@ -20,7 +21,8 @@ def main():
 			print("Adivinhação selecionado.")
 			adivinhacao.adivinhacao()
 		elif(jogo == 2):
-			print("Não Implementado")
+			print("Forca selecionado.")
+			forca.forca()
 		else:
 			print("Opção não existente. Por favor selecione uma opção válida.")
 
